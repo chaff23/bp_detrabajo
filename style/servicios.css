@@ -1,0 +1,14 @@
+footer{
+	position: fixed;
+	bottom: 0px;
+}
+.contacto{
+        background: rgb(217,217,217);
+		height: 100%;
+		min-height: 690px;
+		padding-bottom: 200px;
+		width: 100%;
+    }
+.contacto p{
+    padding: 0% 10% 0% 10%;
+}
