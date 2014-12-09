@@ -1,0 +1,370 @@
+/*
+ * Hoja de estilos para el sitio Bunker Politico.
+
+    1.- Estilos globales.
+    2.- Estilos del header.
+    3.- Estilos del slider.
+    4.- Estilos de servicios.
+    5.- Estilos footer.
+ */
+
+   /* 1.- Estilos globales. */
+    body{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    li{
+        list-style: none;
+        display: inline-block;
+
+
+    }
+
+    a{
+        text-decoration: none;
+        color: gray;
+        display: none;
+    }
+
+    ul{
+        margin: 0px;
+        padding: 0;
+    }
+
+    /* 2.- Estilos del header. */
+
+    header{
+        font-size: 18px;
+        height: 100px;
+        padding-bottom: 30px;
+    }
+
+    .logo{
+        width: 225px;
+        height: 48px;
+        padding: 50px 0 30px 90px;
+        display: inline-block;
+    }
+
+    nav{
+        width: 70%;
+        display: inline-block;
+        float: right;
+        text-align: center;
+
+    }
+
+    .boton{
+        width: 150px;
+        height: 50px;
+        display: inline-block;
+        padding-top: 60px;
+    }
+
+    .boton_activo{
+        width: 150px;
+        height: 50px;
+        display: inline-block;
+        color: red;
+    }
+    #boton2 li{
+        width:200px;
+        color: red;
+    }
+
+    .boton_activo2{
+
+    }
+    /*  rollover */
+    .rollover {
+     opacity: 1;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -o-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;    
+        transition: opacity 0.5s ease-in-out;
+    }
+    .rollover:hover{
+        opacity:0.5;
+    }
+    /*termina rollover */
+
+   /* 3.- Estilos del slider. */
+    
+   .slider {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        padding: 20px 20px 20px 130px;
+
+
+    }
+    
+    .slides {
+      height: 100%;
+      overflow: hidden;
+      /**   
+       * Prevent blinking issue
+       * Not tested. Experimental.
+       */
+      -webkit-backface-visibility: hidden;
+      -webkit-transform-style: preserve-3d;
+
+       -webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    }
+    
+    .slide {
+        height: 100%;
+        float: left;
+        clear: none;
+    }
+
+    .slide img{
+        border-radius: 15px;
+    }
+
+   /* 4.- Estilos de servicios. */
+    .servicios{
+        width: 100%;
+        height: 350px;
+        background: rgb(217,217,217);
+    }
+
+    .servicios h1{
+        font-size: 22px;
+        color: rgb(150,150,150);
+        margin-bottom: 0;
+        padding-left: 100px;
+    }
+
+    .servicios ul{
+        list-style: none;
+        text-align: left;
+        font-size: 16px;
+        padding-left: 100px;
+    }
+
+    .servicios li{
+        list-style: none;
+        text-align: left;
+        font-size: 16px;
+        padding-left: 0px;
+        vertical-align: top;
+        width:100%;
+    }
+/*meti mano*/
+    .servicios li a{
+        color: black;
+        display: inline;
+        font-size: 16px;
+         opacity: 1;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -o-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;    
+        transition: opacity 0.5s ease-in-out;
+    }
+    .servicios li :hover{
+        opacity:0.5;
+    }
+/* termina meti mano*/
+    .servicios hr {
+        width: 400px;
+        height: 2px;
+        border: 0;
+        box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+        margin: 5px 0 10px 100px;
+}
+
+   /* 5.- Estilos footer. */
+    footer{
+        width: 100%;
+        height: 200px;
+        background: rgb(230, 230, 230);
+        font-size: 16px;
+        display: block;
+        background: #ff0000; /* Old browsers */
+        background: -moz-linear-gradient(top, #ff0000 0%, #730000 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0000), color-stop(100%,#730000)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #ff0000 0%,#730000 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #ff0000 0%,#730000 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #ff0000 0%,#730000 100%); /* IE10+ */
+        background: linear-gradient(to bottom, #ff0000 0%,#730000 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#730000',GradientType=0 ); /* IE6-9 */
+    }
+
+    footer .boton{
+        width: 100px;
+        height: 50px;
+        display: block;
+        padding: 80px 0 0 40px;
+        color: white;
+    }
+
+    footer ul{
+
+    }
+
+    footer li{
+        position: relative;
+        left: 100px;
+        top: 0;
+    }
+
+/* iPads (landscape) ----------- 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+
+   .logo{
+        width: 203px;
+        height: 97px;
+        padding: 30px 0 30px 30px;
+        display: inline-block;
+    }
+
+    nav{
+        width: 70%;
+        display: inline-block;
+        float: right;
+        text-align: center;
+    }
+
+    header{
+        font-size: 14px;
+        height: 155px;
+    }
+
+    .boton{
+        width: 150px;
+        height: 90px;
+        display: inline-block;
+        padding-top: 60px;
+    }
+
+    .boton_activo{
+        width: 150px;
+        height: 90px;
+        display: inline-block;
+        background-color: red;
+        color: white;
+    }
+
+    footer{
+        width: 100%;
+        height: 180px;
+        background: rgb(230, 230, 230);
+        font-size: 10px;
+        display: block;
+    }
+
+    .logoBN{
+        width: 203px;
+        height: 97px;
+        padding: 30px 0 30px 0;
+        display: inline-block;
+    }
+
+    .social{
+        width: 60%;
+        display: inline-block;
+        float: right;
+        font-weight:lighter!important;
+    }
+
+    .slides {
+      height: 100%;
+      padding: 0;
+      overflow: hidden;
+      /**   
+       * Prevent blinking issue
+       * Not tested. Experimental.
+       
+      -webkit-backface-visibility: hidden;
+      -webkit-transform-style: preserve-3d;
+
+       -webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+       transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    }
+
+        ul{
+        padding-left: 0px;
+    }
+}*/
+
+/* iPads (portrait) ----------- 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+   .logo{
+        width: 203px;
+        height: 97px;
+        padding: 30px 0 30px 20px;
+        display: inline-block;
+    }
+
+    header{
+        font-size: 12px;
+        height: 155px;
+    }
+
+    nav{
+        width: 68%;
+        display: inline-block;
+        float: right;
+        text-align: center;
+    }
+
+    ul{
+        padding: 0px;
+    }
+
+    .boton_activo{
+        width: 120px;
+        height: 90px;
+        display: inline-block;
+        background-color: red;
+        color: white;
+        margin: 0px;
+    }
+
+    .boton{
+        width: 120px;
+        height: 90px;
+        display: inline-block;
+        padding-top: 60px;
+    }
+
+    footer{
+        width: 100%;
+        height: 200px;
+        background: rgb(230, 230, 230);
+        font-size: 10px;
+        display: block;
+    }
+
+    .logoBN{
+        width: 203px;
+        height: 97px;
+        padding: 50px 0 30px 250px;
+        display: inline-block;
+    }
+
+    .social{
+        width: 100%;
+        display: inline-block;
+        float: left;
+
+    }
+}
+
