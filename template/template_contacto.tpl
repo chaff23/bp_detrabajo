@@ -9,7 +9,7 @@
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,700,600' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="library/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="library/jquery.glide.min.js"></script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <!--<meta name="viewport" content="width=device-width, minimum-scale=1.0, 
  maximum-scale=1.0">-->
 </head>
@@ -29,7 +29,7 @@
 
 
 	<footer>
-		<div class="grid-container">{navbar}</div>
+		<div class="grid-container">{footer}</div>
 	</footer>
 </body>
 </html>

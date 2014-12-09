@@ -30,7 +30,7 @@
 
 
 	<footer>
-		<div class="grid-container">{navbar}</div>
+		<div class="grid-container">{footer}</div>
 	</footer>
 </body>
 </html>
