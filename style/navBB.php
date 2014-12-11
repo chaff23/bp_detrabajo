@@ -2,12 +2,11 @@
 <?php
 include_once("classes/mysql.php");
 $mysql=new MySQL();
-$sql = $mysql->consulta("SELECT imagen,ruta,nombre FROM menus_botones");
+$sql = $mysql->consulta("SELECT nombre,ruta FROM menus_botones WHERE posicion = 2");
 	  while($row=$mysql->fetch_array($sql)){  
-		echo '<li class="'.$row[0].'_b">';
-		echo 	'<a href="'.$row[1].'">';
-		echo 		'<img src="style/images/'.$row[0].'.png"><br>';
-		echo $row[2];
+		echo '<li>';
+		echo 	'<a href="'.$row[1].'" class="boton">';
+		echo 		$row[0];
 		echo 	'</a>';
 		echo '</li>';
 	  }

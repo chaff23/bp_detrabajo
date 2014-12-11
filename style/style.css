@@ -1,0 +1,316 @@
+input[type="button"] {
+ 	background: rgba(255,255,255,0);
+ 	border: 0px;
+ 	font-size: 1.8em;
+	color: transparent;
+	cursor: hand;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px rgba(255,0,0,0.8);
+	letter-spacing: 1px;
+	
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+nav{
+	margin: 0px auto;
+	text-align: right;
+	width: 100%;
+	z-index: 1;
+}
+
+nav a{
+	color: rgba(255,0,0,0.7);
+	cursor: hand;
+	text-decoration: none;
+}
+nav :hover{
+	color: rgba(255,0,0,0.7);
+	cursor: hand;
+}
+#hea{
+		left: 50px;
+	position: fixed;
+		top: 50px;
+	width: 90%;
+}
+#hea1,#hea2{
+	display: inline-block;
+	height: 200px;
+	vertical-align: top;
+}
+#hea1{	
+	margin: 0px auto;
+	text-align: center;
+	width: 20%;
+}
+#hea2{
+	width: 75%;
+}
+.logo{
+    width: 225px;
+    z-index: 5;
+}
+.text1{
+	background:rgba(150,50,60,0.3);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+	color: rgba(255,255,255,1);
+	font-size: 1.5em;
+	font-weight: bolder;
+	min-height:50%;
+	max-height: 80%;
+	position:fixed;
+	text-align:justify;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+    	top: 50%;
+	vertical-align: bottom;
+	width:0%;
+	-webkit-transition: width 1s linear, height 1s ease;
+	-moz-transition: width 1s linear, height 1s ease;
+	-o-transition: width 1s linear, height 1s ease;
+	transition: width 1s linear height 2s ease;
+}
+.text1-change{
+	height: 400px;
+	list-style: none;
+	overflow: auto;
+	padding-left:1%;	
+	padding-right:4%;
+	width: 95%;
+}
+.text1 p{
+	display: none;
+	padding: 0px;
+}
+.text1-change p{
+	display: inline;
+	min-height: 50%;
+	max-height: 100%;
+	padding-left:10%;
+	padding-right:0.4%;
+}
+	@-webkit-keyframes mymove {
+	    from {top: 0%;}
+	    to {top: 50%;}
+	}
+	@keyframes mymove {
+	    from {top: 0%;}
+	    to {top: 50%;}
+	}
+.text1 h1{
+	display: none;
+	margin: 0px auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.text1-change h1{
+	display: list-item;
+	text-align: center;
+}
+.text1 span{
+	display: none;
+}
+.text1-change span{
+	display: list-item;
+}
+.text1-change span a{
+	color: rgba(205,0,0,1);
+}
+/* text2 */
+.text2{
+	background:rgba(150,50,60,0.3);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+	color: rgba(255,255,255,1);
+	font-size: 1.5em;
+	font-weight: bolder;
+	height:50%;
+	position:fixed;
+	text-align:justify;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+    	top: 50%;
+	vertical-align: bottom;
+	width:0%;
+	-webkit-transition: width 1s linear, height 1s ease;
+	-moz-transition: width 1s linear, height 1s ease;
+	-o-transition: width 1s linear, height 1s ease;
+	transition: width 1s linear height 2s ease;
+}
+.text2-change{
+	height: 400px;
+	list-style: none;
+	overflow: auto;
+	padding-left:1%;	
+	padding-right:4%;
+	width: 95%;
+}
+.text2 p{
+	display: none;
+	padding: 0px;
+}
+.text2-change p{
+	display: inline;
+	min-height: 50%;
+	max-height: 100%;
+	padding-left:10%;
+	padding-right:0.4%;
+}
+	@-webkit-keyframes mymove {
+	    from {top: 0%;}
+	    to {top: 50%;}
+	}
+	@keyframes mymove {
+	    from {top: 0%;}
+	    to {top: 50%;}
+	}
+.text2 h1{
+	display: none;
+	margin: 0px auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.text2-change h1{
+	display: list-item;
+	text-align: center;
+}
+.text2 span{
+	display: none;
+}
+.text2-change span{
+	display: list-item;
+}
+.text2-change span a{
+	color: rgba(205,0,0,1);
+}
+/* text3 */
+.text3{
+	background:rgba(150,50,60,0.3);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+	color: rgba(255,255,255,1);
+	font-size: 1.5em;
+	font-weight: bolder;
+	height:50%;
+	position:fixed;
+	text-align:justify;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+    	top: 50%;
+	vertical-align: bottom;
+	width:0%;
+	-webkit-transition: width 1s linear, height 1s ease;
+	-moz-transition: width 1s linear, height 1s ease;
+	-o-transition: width 1s linear, height 1s ease;
+	transition: width 1s linear height 2s ease;
+}
+.text3-change{
+	height: 400px;
+	list-style: none;
+	overflow: auto;
+	padding-left:1%;	
+	padding-right:4%;
+	width: 95%;
+}
+.text3 p{
+	display: none;
+	padding: 0px;
+}
+.text3-change p{
+	display: inline;
+	min-height: 50%;
+	max-height: 100%;
+	padding-left:10%;
+	padding-right:0.4%;
+}
+	@-webkit-keyframes mymove {
+	    from {top: 0%;}
+	    to {top: 50%;}
+	}
+	@keyframes mymove {
+	    from {top: 0%;}
+	    to {top: 50%;}
+	}
+.text3 h1{
+	display: none;
+	margin: 0px auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.text3-change h1{
+	display: list-item;
+	text-align: center;
+}
+.text3 span{
+	display: none;
+}
+.text3-change span{
+	display: list-item;
+}
+.text3-change span a{
+	color: rgba(205,0,0,1);
+}
+/* text4 */
+.text4{
+	background:rgba(150,50,60,0.3);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+	color: rgba(255,255,255,1);
+	font-size: 1.5em;
+	font-weight: bolder;
+	height:50%;
+	position:fixed;
+	text-align:justify;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+    	top: 50%;
+	vertical-align: bottom;
+	width:0%;
+	-webkit-transition: width 1s linear, height 1s ease;
+	-moz-transition: width 1s linear, height 1s ease;
+	-o-transition: width 1s linear, height 1s ease;
+	transition: width 1s linear height 2s ease;
+}
+.text4-change{
+	height: 400px;
+	list-style: none;
+	overflow: auto;
+	padding-left:1%;	
+	padding-right:4%;
+	width: 95%;
+}
+.text4 p{
+	display: none;
+	padding: 0px;
+}
+.text4-change p{
+	display: inline;
+	min-height: 50%;
+	max-height: 100%;
+	padding-left:10%;
+	padding-right:0.4%;
+}
+	@-webkit-keyframes mymove {
+	    from {top: 0%;}
+	    to {top: 50%;}
+	}
+	@keyframes mymove {
+	    from {top: 0%;}
+	    to {top: 50%;}
+	}
+.text4 h1{
+	display: none;
+	margin: 0px auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.text4-change h1{
+	display: list-item;
+	text-align: center;
+}
+.text4 span{
+	display: none;
+}
+.text4-change span{
+	display: list-item;
+}
+.text4-change span a{
+	color: rgba(205,0,0,1);
+}

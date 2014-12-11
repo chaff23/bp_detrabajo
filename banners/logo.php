@@ -10,4 +10,6 @@ $sql=$mysql->consulta("SELECT titulo,subtitulo FROM template_general");
 	}
 	*/
 ?>
-	<img src="style/images/logo.png">
+<a href="index.php">
+	<img id="logo" src="style/images/logo.png" class="rollover">
+</a>

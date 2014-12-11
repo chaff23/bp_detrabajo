@@ -14,72 +14,7 @@
         font-size: 18px;
     }
 
-    h1{
-        font-size: 22px;
-    }
-
-    li{
-        list-style: none;
-        display: inline-block;
-
-
-    }
-
-    a{
-        text-decoration: none;
-        color: gray;
-        display: none;
-    }
-
-    ul{
-        margin: 0px;
-        padding: 0;
-    }
-
     /* 2.- Estilos del header. */
-
-    header{
-        font-size: 18px;
-        height: 100px;
-        padding-bottom: 30px;
-    }
-
-    .logo{
-        width: 225px;
-        height: 48px;
-        padding: 50px 0 30px 90px;
-        display: inline-block;
-    }
-
-    nav{
-        width: 70%;
-        display: inline-block;
-        float: right;
-        text-align: center;
-
-    }
-
-    .boton{
-        width: 150px;
-        height: 50px;
-        display: inline-block;
-        padding-top: 60px;
-    }
-
-    .boton_activo{
-        width: 150px;
-        height: 50px;
-        display: inline-block;
-        color: red;
-    }
-    #boton2 li{
-        width:200px;
-        color: red;
-    }
-
-    .boton_activo2{
-
-    }
     /*  rollover */
     .rollover {
      opacity: 1;
@@ -93,7 +28,6 @@
         opacity:0.5;
     }
     /*termina rollover */
-
    /* 3.- Estilos del slider. */
     
    .slider {
@@ -221,33 +155,29 @@
         top: 0;
     }
 
-/* iPads (landscape) ----------- 
+/* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
 
-   .logo{
-        width: 203px;
-        height: 97px;
-        padding: 30px 0 30px 30px;
-        display: inline-block;
+    header{
+        font-size: 18px;
+        height: 155px;
     }
+
+
 
     nav{
-        width: 70%;
+        width: 100%;
         display: inline-block;
-        float: right;
-        text-align: center;
-    }
 
-    header{
-        font-size: 14px;
-        height: 155px;
+        padding-right: 70px;
     }
 
     .boton{
         width: 150px;
-        height: 90px;
+        height: 50px;
         display: inline-block;
-        padding-top: 60px;
+        padding-top: 25px;
+        text-align: center;
     }
 
     .boton_activo{
@@ -273,17 +203,6 @@
         display: inline-block;
     }
 
-    .social{
-        width: 60%;
-        display: inline-block;
-        float: right;
-        font-weight:lighter!important;
-    }
-
-    .slides {
-      height: 100%;
-      padding: 0;
-      overflow: hidden;
       /**   
        * Prevent blinking issue
        * Not tested. Experimental.
@@ -301,7 +220,7 @@
         ul{
         padding-left: 0px;
     }
-}*/
+
 
 /* iPads (portrait) ----------- 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
@@ -328,7 +247,7 @@
     ul{
         padding: 0px;
     }
-
+/*
     .boton_activo{
         width: 120px;
         height: 90px;
@@ -352,19 +271,6 @@
         font-size: 10px;
         display: block;
     }
-
-    .logoBN{
-        width: 203px;
-        height: 97px;
-        padding: 50px 0 30px 250px;
-        display: inline-block;
-    }
-
-    .social{
-        width: 100%;
-        display: inline-block;
-        float: left;
-
-    }
+    
 }
 
